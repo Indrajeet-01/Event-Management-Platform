@@ -1,0 +1,39 @@
+.join-button,
+.leave-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-button {
+  background: #28a745;
+  color: white;
+}
+
+.join-button:hover {
+  background: #218838;
+}
+
+.leave-button {
+  background: #dc3545;
+  color: white;
+}
+
+.leave-button:hover {
+  background: #c82333;
+}
+
+.event-details-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-details-container li {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
